@@ -217,11 +217,14 @@ ul li {
 }
 
 @media screen and (max-width: 760px) {
-    .flex {
+    .wrap {
      flex-wrap: wrap;
     }
-    .flex-48 .flex-30 {
+    .flex-100 {
         flex: 1 1 100%;
+    }
+    .order-1 {
+        order: 1;
     }
     .column {
         flex-direction: column;
@@ -229,6 +232,9 @@ ul li {
     .margin {
         margin-top: 20px;
 
+    }
+    .padding-bottom {
+        padding-bottom: 15px;
     }
 }
 
