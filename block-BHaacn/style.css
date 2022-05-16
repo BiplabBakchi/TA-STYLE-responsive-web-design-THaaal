@@ -265,7 +265,7 @@
   
   /* Hero */
   .hero {
-    background: linear-gradient(rgba(35,52,123,0.7), rgba(35,52,123,0.7)), url(assets/banner.png) no-repeat;
+    background: linear-gradient(rgb(53,39,172,0.7), rgb(53,39,172,0.7)), url(assets/banner.png) no-repeat;
     background-size: cover;
     height: 100vh;
     color: var(--textWhite);
